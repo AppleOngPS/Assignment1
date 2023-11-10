@@ -108,9 +108,11 @@ image {
   margin: 15px;
   padding: 20px;
 }
+
 .word {
   width: 300px;
   padding: 20px;
+  font-size: 18px;
 }
 
 .footer {
@@ -130,13 +132,37 @@ image {
   font-size: 40px;
 }
 
+.rowforimg1 {
+  display: flex;
+  flex-direction: row;
+  border: 4px hidden;
+}
+
 .history {
   display: flex;
   flex-direction: column;
-  font-size: 30px;
-  padding-left: 20px;
+  font-size: 20px;
+  padding: 30px;
+}
+.image3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+}
+.image4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
 }
 
+.words {
+  font-size: 18px;
+}
 @media only screen and (max-width: 600px) {
   .container {
     display: flex;
@@ -163,6 +189,10 @@ image {
     flex-direction: column;
   }
   .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .rowforimg1 {
     display: flex;
     flex-direction: column;
   }
