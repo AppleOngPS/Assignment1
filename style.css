@@ -11,6 +11,11 @@
   margin: -20px;
 }
 
+.menu h4 a {
+  color: white; /* Color for the link within h4 */
+  text-decoration: none; /* Remove underline from the link */
+}
+
 .menu {
   background-color: rgb(32, 32, 131);
   color: aliceblue;
@@ -163,6 +168,7 @@ image {
 .words {
   font-size: 18px;
 }
+
 @media only screen and (max-width: 600px) {
   .container {
     display: flex;
