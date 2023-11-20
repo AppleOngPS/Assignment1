@@ -165,8 +165,24 @@ image {
   gap: 20px;
 }
 
-.words {
+.word {
   font-size: 18px;
+}
+
+.rowforimg2 {
+  display: flex;
+  flex-direction: row;
+  border: 10px hidden;
+  gap: 40px;
+}
+
+.image5 {
+  display: flex;
+  flex-direction: row;
+  border: 10px hidden;
+  width: auto;
+  margin: 15px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {
