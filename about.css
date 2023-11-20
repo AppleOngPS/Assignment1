@@ -1,0 +1,39 @@
+/* about page:school history timeline */
+.history {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 30px;
+}
+
+/* about page:school images border */
+.rowforimg2 {
+  display: flex;
+  flex-direction: row;
+  border: 4px hidden;
+}
+
+/* about page:school images trumbull gallery */
+.image3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+/* about page:school images school of fine art */
+.image4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .rowforimg2 {
+    display: flex;
+    flex-direction: column;
+  }
+}

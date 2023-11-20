@@ -1,3 +1,4 @@
+/* school logo for all pages */
 .container {
   display: flex;
   flex-direction: row;
@@ -5,17 +6,19 @@
   justify-content: center;
   margin: 20px;
 }
-
+/* school name for all pages */
 .SchoolTitle {
   font-size: 35px;
   margin: -20px;
 }
 
+/* menus for all pages */
 .menu h4 a {
   color: white; /* Color for the link within h4 */
   text-decoration: none; /* Remove underline from the link */
 }
 
+/* menus for all pages */
 .menu {
   background-color: rgb(32, 32, 131);
   color: aliceblue;
@@ -25,6 +28,8 @@
   cursor: pointer;
   flex-direction: row;
 }
+
+/* standadize all the word format */
 .content {
   display: flex;
   flex-direction: row;
@@ -35,6 +40,7 @@
   width: 80%;
 }
 
+/* subheading for all pages */
 .subtitle {
   font-size: 20px;
   display: flex;
@@ -44,82 +50,8 @@
   justify-content: center;
   width: 500px;
 }
-.image {
-  display: grid;
-  height: auto;
-  width: auto;
-}
-.row {
-  display: flex;
-  flex-direction: row;
-  border: hidden;
-  justify-content: space-between;
-}
-.post {
-  display: flex;
-  flex-direction: row;
-  border: 5px lightblue solid;
-  justify-content: center;
-  background-color: lightblue;
-  width: 400px;
-  font-size: 20px;
-}
-.post1 {
-  display: flex;
-  flex-direction: row;
-  border: 5px lightpink solid;
-  background-color: lightpink;
-  width: 400px;
-  justify-content: center;
-  font-size: 20px;
-}
-.post2 {
-  display: flex;
-  flex-direction: row;
-  border: 5px lightgoldenrodyellow;
-  justify-content: center;
-  background-color: lightgoldenrodyellow;
-  width: 400px;
-  font-size: 20px;
-}
 
-.board {
-  font-size: 20px;
-  margin: 15px;
-  padding: 10px;
-  text-wrap: wrap;
-}
-
-.rowforimg {
-  display: flex;
-  flex-direction: row;
-  border: 10px hidden;
-}
-
-image {
-  display: flex;
-  flex-direction: row;
-  border: 10px hidden;
-  width: auto;
-  margin: 15px;
-  padding: 20px;
-}
-
-.image1 {
-  display: flex;
-  flex-direction: row;
-  border: 10px hidden;
-  width: auto;
-  margin: 15px;
-  padding: 20px;
-}
-
-.word {
-  width: 300px;
-  padding: 20px;
-  font-size: 18px;
-}
-
+/* footer for all pages*/
 .footer {
   display: flex;
   flex-direction: row;
@@ -130,59 +62,16 @@ image {
   background-color: rgb(32, 32, 131);
 }
 
+/* alignment of the school logo and school title for all pages */
 .header {
   display: flex;
   justify-content: center;
   padding: 10px;
   font-size: 40px;
 }
-
-.rowforimg1 {
-  display: flex;
-  flex-direction: row;
-  border: 4px hidden;
-}
-
-.history {
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  padding: 30px;
-}
-.image3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-  gap: 20px;
-}
-.image4 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 30px;
-  gap: 20px;
-}
-
+/* standadize word size */
 .word {
   font-size: 18px;
-}
-
-.rowforimg2 {
-  display: flex;
-  flex-direction: row;
-  border: 10px hidden;
-  gap: 40px;
-}
-
-.image5 {
-  display: flex;
-  flex-direction: row;
-  border: 10px hidden;
-  width: auto;
-  margin: 15px;
-  padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -202,19 +91,7 @@ image {
     display: flex;
     flex-direction: column;
   }
-  .row {
-    display: flex;
-    flex-direction: column;
-  }
-  .rowforimg {
-    display: flex;
-    flex-direction: column;
-  }
   .footer {
-    display: flex;
-    flex-direction: column;
-  }
-  .rowforimg1 {
     display: flex;
     flex-direction: column;
   }

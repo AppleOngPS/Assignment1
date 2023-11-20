@@ -1,0 +1,25 @@
+/* publication page: image border */
+.rowforimg3 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+/* publication page: image 1 */
+.image5 {
+  display: flex;
+  flex-direction: row;
+  border: 10px hidden;
+  width: auto;
+  margin: 15px;
+  padding: 20px;
+}
+.word1 {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .rowforimg3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
