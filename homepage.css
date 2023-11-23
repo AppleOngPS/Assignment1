@@ -2,7 +2,8 @@
 .row {
   display: flex;
   flex-direction: row;
-  border: hidden;
+  border: black solid;
+
   justify-content: space-between;
 }
 /* homepage: post note 1 */
@@ -15,6 +16,7 @@
   width: 400px;
   font-size: 20px;
 }
+
 /* homepage: post note 2 */
 .post1 {
   display: flex;
