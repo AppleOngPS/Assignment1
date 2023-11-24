@@ -20,4 +20,6 @@ function login() {
     // if all is true , it will pop out login succesfull
     alert("Login Successfull!");
   }
+  // testing to the real yale school of art website
+  window.location.href = "https://www.art.yale.edu/";
 }

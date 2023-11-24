@@ -3,3 +3,7 @@
 
   flex-direction: column;
 }
+
+.image {
+  padding: 10px;
+}
