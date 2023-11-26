@@ -1,4 +1,4 @@
-function login() {
+function login1() {
   var username = document.getElementById("email").value;
   var password = document.getElementById("pwd").value;
   // filter function is to make sure it is the correct format.. eg example@gmail.com
@@ -20,6 +20,4 @@ function login() {
     // if all is true , it will pop out login succesfull
     alert("Login Successfull!");
   }
-  // testing to the real yale school of art website
-  window.location.href = "https://www.art.yale.edu/";
 }

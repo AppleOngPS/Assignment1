@@ -54,7 +54,8 @@
 .rowforimg {
   display: flex;
   flex-direction: row;
-  border: 10px hidden;
+
+  gap: 20px;
 }
 /* homepage: for student art work photographer image */
 image {
@@ -64,6 +65,7 @@ image {
   width: auto;
   margin: 15px;
   padding: 20px;
+  position: relative;
 }
 /* homepage: student art work printmaking image */
 .image1 {
@@ -73,12 +75,14 @@ image {
   width: auto;
   margin: 15px;
   padding: 20px;
+  position: relative;
 }
 /* homepage: caption for the student art work images */
 .word {
+  display: flex;
+  flex-direction: column;
   width: 300px;
-  padding: 20px;
-  font-size: 18px;
+  position: relative;
 }
 /* homepage: post note 1 */
 .rowforimg1 {
