@@ -1,9 +1,19 @@
-.section1 {
+#section1 {
   display: flex;
-
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  border: 4px hidden;
 }
-
-.image {
-  padding: 10px;
+.contact-info {
+  border: 4px hidden;
+  width: 50%;
+}
+.location {
+  border: 5px hidden;
+  font-size: 18px;
+}
+.imageMap img {
+  width: 650px;
+  height: 600px;
 }

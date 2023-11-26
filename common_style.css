@@ -16,6 +16,9 @@
 .menu h4 a {
   color: white; /* Color for the link within h4 */
   text-decoration: none; /* Remove underline from the link */
+
+  display: flex;
+  flex-direction: row;
 }
 
 /* menus for all pages */
