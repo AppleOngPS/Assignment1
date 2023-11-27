@@ -1,25 +1,3 @@
-refreshStudentTable();
-document.addEventListener("submit", function (event) {
-  event.preventDefault();
-
-  let stuName = document.getElementById("txtName").value;
-  let stuEmail = document.getElementById("txtemail").value;
-  let stuSubject = document.getElementById("txtsubject").value;
-  let stuMessage = document.getElementById("txtMessage").value;
-
-  let student_list = [];
-  if (localStorage.getItem("studentList") !== null) {
-    studentList = JSON.parse(localStorage.getItem("studentList"));
-  }
-  let newStudent = new Student(stuName, stuEmail, stuSubject, stuMessage);
-  studentList.push(newStudent);
-  localStorage.setItem("studentList", JSON.stringify(studentList));
-
-  document.getElementById("myFrm").reset();
-
-  refreshStudentTable();
-});
-
 function Student(stuName, stuEmail, stuSubject, stuMessage) {
   this.id = Date.now();
   this.name = stuName;
@@ -28,6 +6,7 @@ function Student(stuName, stuEmail, stuSubject, stuMessage) {
   this.message = stuMessage;
 }
 
+// Function to refresh the student table
 function refreshStudentTable() {
   let studentTable = document.getElementById("student-table-body");
   let studentList = [];
@@ -43,3 +22,30 @@ function refreshStudentTable() {
     studentTable.innerHTML = studentData;
   }
 }
+
+// Event listener for form submission
+document.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  let stuName = document.getElementById("txtName").value;
+  let stuEmail = document.getElementById("txtemail").value;
+  let stuSubject = document.getElementById("txtsubject").value;
+  let stuMessage = document.getElementById("txtMessage").value;
+
+  let studentList = [];
+  if (localStorage.getItem("studentList") !== null) {
+    studentList = JSON.parse(localStorage.getItem("studentList"));
+  }
+
+  let newStudent = new Student(stuName, stuEmail, stuSubject, stuMessage);
+  studentList.push(newStudent);
+  localStorage.setItem("studentList", JSON.stringify(studentList));
+
+  document.getElementById("myFrm").reset();
+
+  // Call the refreshStudentTable function after storing a new student
+  refreshStudentTable();
+});
+
+// Initial call to refreshStudentTable to display existing data on page load
+refreshStudentTable();
