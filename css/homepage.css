@@ -7,6 +7,7 @@
   padding: 30px;
   background-color: rgba(151, 142, 131, 0.395);
   justify-content: space-between;
+
   gap: 10px;
 }
 /* homepage: post note 1 */
@@ -19,6 +20,8 @@
   width: 400px;
   font-size: 20px;
   padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* homepage: post note 2 */
@@ -31,6 +34,8 @@
   justify-content: center;
   font-size: 20px;
   padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 /* homepage: post note 3 */
 .post2 {
@@ -42,6 +47,8 @@
   width: 400px;
   font-size: 20px;
   padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 /* homepage: border for the bulletin board caption(above the post stick)*/
 .board {
@@ -66,6 +73,7 @@ image {
   margin: 15px;
   padding: 20px;
   position: relative;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 /* homepage: student art work printmaking image */
 .image1 {
@@ -83,6 +91,8 @@ image {
   flex-direction: column;
   width: 300px;
   position: relative;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 /* homepage: post note 1 */
 .rowforimg1 {
