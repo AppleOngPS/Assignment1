@@ -7,14 +7,14 @@ function about() {
 function enrollment() {
   window.location.href = "enrollment.html";
 }
-function exhibition() {
-  window.location.href = "exhibition.html";
+function feedback() {
+  window.location.href = "feedback.html";
 }
 function publication() {
   window.location.href = "publication.html";
 }
-function news() {
-  window.location.href = "news.html";
+function review() {
+  window.location.href = "review.html";
 }
 function login() {
   window.location.href = "login.html";
