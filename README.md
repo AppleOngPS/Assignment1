@@ -1,9 +1,8 @@
 # Assignment1
 
-Your Project's Name
-One or two paragraphs providing an overview of your project. Tell us about your project.
+Yale School of Art
 
-Essentially, this part is your sales pitch.
+This revamped version of the website represents a significant improvement over the original, with enhanced readability and user-friendly navigation. These improvements are essential for optimizing the user experience. Improved readability, and a user-friendly layout ensures that visitors can easily access and engage with the content. By prioritizing user experience through thoughtful design choices, the website is now more accessible and user-friendly.
 
 # Design Process
 
