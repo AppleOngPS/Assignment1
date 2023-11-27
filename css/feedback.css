@@ -1,0 +1,42 @@
+.content {
+  display: flex;
+  border: red hidden;
+  width: 90%;
+}
+#myFrm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto; /* Center the form horizontally */
+  border: 4px hidden;
+  padding: 50px; /* Add some padding for better appearance */
+  text-align: right;
+}
+
+#myFrm div {
+  margin-bottom: 15px; /* Add space between form elements */
+}
+
+#myFrm label {
+  width: 30%; /* Adjust the width of labels */
+  display: inline-block;
+
+  width: 80%;
+  text-align: left; /* Align labels to the left */
+}
+
+#myFrm input,
+#myFrm textarea {
+  width: 80%; /* Make inputs and textarea take full width */
+  padding: 5px; /* Add padding for better appearance */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#myFrm textarea {
+  height: 100px; /* Set a fixed height for the textarea */
+}
+
+#myFrm input[type="submit"] {
+  width: auto;
+  margin-left: auto; /* Move the submit button to the right */
+}

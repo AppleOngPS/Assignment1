@@ -1,46 +1,97 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="css/common_style.css" />
-<link rel="stylesheet" href="css/normalize.css" />
-
-<meta name="viewport" content="width=device-width" />
-<title>Yale School Of Art: Exhibition</title>
-<header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/common_style.css" />
+    <link rel="stylesheet" href="css/feedback.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <title>Yale School Of Art: Feedback</title>
+  </head>
   <body>
-    <section class="container">
-      <img src="picture/School logo.png" alt="logo" width="100" height="100" />
+    <header>
+      <section class="container">
+        <img
+          src="picture/School logo.png"
+          alt="logo"
+          width="100"
+          height="100"
+        />
 
-      <div class="SchoolTitle">
-        <h1>Yale School of Arts</h1>
-      </div>
+        <div class="SchoolTitle">
+          <h1>Yale School of Arts</h1>
+        </div>
+      </section>
+
+      <menu class="menu">
+        <h4><a onclick="home()">Home</a></h4>
+        <h4><a onclick="about()">About</a></h4>
+        <h4><a onclick="enrollment()">Enrollment</a></h4>
+        <h4><a onclick="publication()">Publication</a></h4>
+        <h4><a onclick="feedback()">Feedback</a></h4>
+        <h4><a onclick="review()">Review</a></h4>
+        <h4><a onclick="login()">Login</a></h4>
+      </menu>
+    </header>
+    <header class="header">
+      <h4>Feedback</h4>
+    </header>
+
+    <section class="content">
+      <form id="myFrm">
+        <div>
+          <label for="txtName">Name:</label>
+          <input type="text" placeholder="Enter Name" id="txtName" required />
+        </div>
+        <br />
+        <div>
+          <label for="txtemail">Email:</label>
+          <input
+            type="email"
+            placeholder="Enter Email:"
+            id="txtemail"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="txtsubject">Subject:</label>
+          <input
+            type="text"
+            placeholder="Enter Subject"
+            id="txtsubject"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="comment">Message:</label>
+          <textarea
+            rows="4"
+            cols="50"
+            id="txtMessage"
+            name="comment"
+            form="usrform"
+            placeholder="Enter text here..."
+          ></textarea>
+        </div>
+
+        <input type="submit" />
+      </form>
     </section>
 
-    <menu class="menu">
-      <h4><a onclick="home()">Home</a></h4>
-      <h4><a onclick="about()">About</a></h4>
-      <h4><a onclick="enrollment()">Enrollment</a></h4>
-      <h4><a onclick="publication()">Publication</a></h4>
-      <h4><a onclick="feedback()">Feedback</a></h4>
-      <h4><a onclick="review()">Review</a></h4>
-      <h4><a onclick="login()">Login</a></h4>
-    </menu> 
-
-    <header class="header">
-        <h4>Feedback</h4>
-      </header>
-    
-
-      <script src="js/linkingPages.js"></script>
-    <br/>
     <footer class="footer">
-        <h6>@2023</h6>
-        <h6>Instagram</h6>
-        <h6>Facebook</h6>
-        <h6>YouTube</h6>
-        <h6>Visiting</h6>
-        <h6>Sitemap</h6>
-        <h6>Accessibility at Yale</h6>
-        <h6>Support the School</h6>
-      </footer>
-    </body>
-  </header>
-</li>
+      <h6>@2023</h6>
+      <h6>Instagram</h6>
+      <h6>Facebook</h6>
+      <h6>YouTube</h6>
+      <h6>Visiting</h6>
+      <h6>Sitemap</h6>
+      <h6>Accessibility at Yale</h6>
+      <h6>Support the School</h6>
+    </footer>
+
+    <script src="js/linkingPages.js"></script>
+    <script src="js/feedback.js"></script>
+  </body>
+</html>
