@@ -32,27 +32,46 @@ Interactive Maps- for user to drag around and see the places near the school
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+HTML
+the project uses html to create a basic structure of the website.
 Testing
+
+CSS
+the project use css for styling and layout, ensuring a visually appealing and consistent design across the website.
+
+Javascript
+the project use JavaScript to adds interactivity and dynamic features to the website, enhancing the user experience.
+example like vaildation,local storeage
+
+Figma(WireFrame)
+the project use Figma for prototyping, and user interface (UI) design.
+Example like how does the website in desktop look like in the mobile view.Quick look on how the overview layout look like and able to follow to do the final code using html,css,javascript.
+
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
-Go to the "Contact Us" page
+login form:
+Go to the "login" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 # Credits
 
 Content
-The text for section Y was copied from the Wikipedia article Z
-Media
+The text for homepage,about,enrollment,and publication was copied from the yale school of art website
+source:https://www.art.yale.edu/
+https://www.art.yale.edu/about/mission-statement
+
 The photos used in this site were obtained from ...
+school logo source: https://en.wikipedia.org/wiki/Yale_School_of_Art
+
+feedback cover image source :https://www.flickr.com/photos/peterjsieger/48943166943
+
+publication cover image source: https://news.yale.edu/2021/03/24/gallery-view-school-art-offers-virtual-tours-student-work
+
+enrollment cover image source:https://kierantimberlake.com/page/sculpture-building-and-school-of-art-gallery
+
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from yale school of art
+source:https://www.art.yale.edu/
