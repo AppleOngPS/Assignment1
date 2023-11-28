@@ -62,6 +62,9 @@ Content
 The text for homepage,about,enrollment,and publication was copied from the yale school of art website
 source:https://www.art.yale.edu/
 https://www.art.yale.edu/about/mission-statement
+https://www.art.yale.edu/about
+https://www.art.yale.edu/apply
+https://www.art.yale.edu/publications
 
 The photos used in this site were obtained from ...
 school logo source: https://en.wikipedia.org/wiki/Yale_School_of_Art
@@ -71,6 +74,21 @@ feedback cover image source :https://www.flickr.com/photos/peterjsieger/48943166
 publication cover image source: https://news.yale.edu/2021/03/24/gallery-view-school-art-offers-virtual-tours-student-work
 
 enrollment cover image source:https://kierantimberlake.com/page/sculpture-building-and-school-of-art-gallery
+
+Homepage pictures:
+Student art work a picture of a women: https://yaledailynews.com/blog/2022/01/27/former-yale-school-of-art-photography-director-captures-the-1960s-grace-and-tension-in-new-exhibit/
+
+Student art work printmaking: https://www.jacktiltongallery.com/artists/tomashi-jackson/selected-works?view=slider#34
+
+about picture:
+Picture of The Trumbull Gallery (1832–1864) : https://connecticuthistory.org/yale-university-art-gallery/
+
+Picture of school of fine arts (1864-1950): https://en.wikipedia.org/wiki/Slade_School_of_Fine_Art
+
+enrollment picture:
+Map of school : https://www.google.com/maps/place/Yale+School+of+Art/@41.3085549,-72.9333523,19.27z/data=!4m7!3m6!1s0x89e7d9b2ead4c849:0x9498d8b81e55fcaf!4b1!8m2!3d41.3084392!4d-72.9329028!16s%2Fm%2F026qk8b?entry=ttu
+
+Publication page: https://www.art.yale.edu/publications
 
 Acknowledgements
 I received inspiration for this project from yale school of art
