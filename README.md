@@ -11,6 +11,7 @@ This website is focusing on anyone who are interested and want to find out more 
 I used Figma software to create my wireframe.Below is the attached link for the desktop view and mobile view.
 
 desktop view: https://www.figma.com/file/ucil8VbGDIxtn2tJD65Udp/FED-Assignment-Desktop-View?type=design&node-id=0%3A1&mode=design&t=5Y5Ds3F6CyYt3NYW-1
+
 mobile view:https://www.figma.com/file/RG4N6sAzgZusp68vc8h0Ob/FED-Assignment-Mobile-View?type=design&node-id=0%3A1&mode=design&t=DJkcG9yvVbMPTwAF-1
 
 # Features
