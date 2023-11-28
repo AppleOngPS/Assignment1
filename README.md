@@ -31,7 +31,8 @@ In addition, I will use this section to discuss plans for additional features to
 
 Feature idea:
 Real-time Chat- to implement a real-time chat feature to facilitate instant communication between users.
-Interactive Maps- for user to drag around and see the places near the school
+Interactive Maps- for user to drag around and see the places near the school.
+Input new interactive calendar - for user to see furture school event and have a heads up.
 
 # Technologies Used
 
@@ -60,7 +61,7 @@ Try to submit the form with all inputs valid and verify that a success message a
 
 In addition, this section I will show how my project looks and works on different browsers and screen sizes.
 
-The project has been tested on multiple browsers ( google chrome(default),Firefox,Internet explorer,mircosoft edge) to ensure a consistent user experience.The project is fully compatible with the different browser, displaying as intended.However screens with a larger display area, the layout is not proportionate.
+The project has been tested on multiple browsers (google chrome(default),Firefox,Internet explorer,mircosoft edge) to ensure a consistent user experience.The project is fully compatible with the different browser, displaying as intended.However screens with a larger display area, the layout is not proportionate.
 
 # Credits
 
@@ -94,7 +95,7 @@ Picture of school of fine arts (1864-1950): https://en.wikipedia.org/wiki/Slade_
 enrollment picture:
 Map of school : https://www.google.com/maps/place/Yale+School+of+Art/@41.3085549,-72.9333523,19.27z/data=!4m7!3m6!1s0x89e7d9b2ead4c849:0x9498d8b81e55fcaf!4b1!8m2!3d41.3084392!4d-72.9329028!16s%2Fm%2F026qk8b?entry=ttu
 
-Publication page: https://www.art.yale.edu/publications
+Publication page(image and content): https://www.art.yale.edu/publications
 
 Acknowledgements
 I received inspiration for this project from yale school of art
