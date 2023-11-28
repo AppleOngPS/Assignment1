@@ -14,7 +14,7 @@ mobile view:https://www.figma.com/file/RG4N6sAzgZusp68vc8h0Ob/FED-Assignment-Mob
 
 # Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+In this section, I will go over the different parts of my project, and describe each in a sentence or so.
 
 Existing Features
 Feature 1 - allow user to navigate around the pages using the menus bar
@@ -29,8 +29,6 @@ Real-time Chat- to implement a real-time chat feature to facilitate instant comm
 Interactive Maps- for user to drag around and see the places near the school
 
 # Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 HTML
 the project uses html to create a basic structure of the website.
