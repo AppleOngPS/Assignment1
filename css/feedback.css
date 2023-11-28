@@ -40,3 +40,10 @@
   width: auto;
   margin-left: auto; /* Move the submit button to the right */
 }
+
+@media only screen and (max-width: 600px) {
+  #myFrm {
+    display: flex;
+    flex-direction: column;
+  }
+}
