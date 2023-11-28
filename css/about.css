@@ -2,7 +2,7 @@
 .history {
   display: flex;
   flex-direction: column;
-  font-size: 23px;
+  font-size: 24px;
   padding: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -30,8 +30,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 30px;
   gap: 20px;
+}
+.image4 img {
+  border: 2px black solid;
 }
 .words {
   font-size: 20px;

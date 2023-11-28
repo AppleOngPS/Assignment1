@@ -73,6 +73,9 @@
   background-color: rgb(32, 32, 131);
 }
 
+.footer h6 {
+  cursor: pointer;
+}
 /* alignment of the school logo and school title for all pages */
 .header {
   display: flex;

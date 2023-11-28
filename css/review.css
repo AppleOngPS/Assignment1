@@ -2,18 +2,19 @@
   width: 80%;
   margin: 20px auto;
   border-collapse: collapse;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  color: black;
 }
 
 #student-table th,
 #student-table td {
-  border: 1px solid #ddd;
+  border: 1px solid #a5bfe6;
   padding: 12px;
   text-align: left;
 }
 
 #student-table th {
-  background-color: #f2f2f2;
+  background-color: #a5bfe6;
 }
 
 #student-table tbody tr:nth-child(even) {
