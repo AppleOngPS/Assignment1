@@ -9,6 +9,7 @@ This revamped version of the website represents a significant improvement over t
 This website is focusing on anyone who are interested and want to find out more about the school through the website.As a user, I want the website to be easy to navigate to everypage using the menu bar,providing disticnt and clear category like Home,About,Enrollment,Publication,Feedback,Review,and Login.As a student user type, I want to explore the external and internal aspects of the school.Every page of the website there is different view of aspect of the internal and external of the school.As a reader type,readability will be a important factor,having a clear font,and contrasting colors to enhance the overall user experience.
 
 I used Figma software to create my wireframe.Below is the attached link for the desktop view and mobile view.
+
 desktop view: https://www.figma.com/file/ucil8VbGDIxtn2tJD65Udp/FED-Assignment-Desktop-View?type=design&node-id=0%3A1&mode=design&t=5Y5Ds3F6CyYt3NYW-1
 mobile view:https://www.figma.com/file/RG4N6sAzgZusp68vc8h0Ob/FED-Assignment-Mobile-View?type=design&node-id=0%3A1&mode=design&t=DJkcG9yvVbMPTwAF-1
 
@@ -18,8 +19,11 @@ In this section, I will go over the different parts of my project, and describe 
 
 Existing Features
 Feature 1 - allow user to navigate around the pages using the menus bar
+
 Feature 2 - allow user to write the full version of the post detail, by clicking click more in the homepage
+
 Feature 3 - allows users display their query or feedback in review page, by having them fill out feedback page to submit
+
 Feature 4 - allow user to login to student/staff portal by having them fill up the login details
 
 In addition, I will use this section to discuss plans for additional features to be implemented in the future:
