@@ -23,3 +23,14 @@
 #student-table tbody tr:hover {
   background-color: #e0e0e0;
 }
+
+@media only screen and (max-width: 600px) {
+  #student-table {
+    display: flex;
+    flex-direction: column;
+  }
+  #student-table-body {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,29 +1,32 @@
 # Assignment1
 
-Yale School of Art
+Project Name: Yale School of Art
 
 This revamped version of the website represents a significant improvement over the original, with enhanced readability and user-friendly navigation. These improvements are essential for optimizing the user experience. Improved readability, and a user-friendly layout ensures that visitors can easily access and engage with the content. By prioritizing user experience through thoughtful design choices, the website is now more accessible and user-friendly.
 
 # Design Process
 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website is focusing on anyone who are interested and want to find out more about the school through the website.As a user, I want the website to be easy to navigate to everypage using the menu bar,providing disticnt and clear category like Home,About,Enrollment,Publication,Feedback,Review,and Login.As a student user type, I want to explore the external and internal aspects of the school.Every page of the website there is different view of aspect of the internal and external of the school.As a reader type,readability will be a important factor,having a clear font,and contrasting colors to enhance the overall user experience.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+I used Figma software to create my wireframe.Below is the attached link for the desktop view and mobile view.
+desktop view: https://www.figma.com/file/ucil8VbGDIxtn2tJD65Udp/FED-Assignment-Desktop-View?type=design&node-id=0%3A1&mode=design&t=5Y5Ds3F6CyYt3NYW-1
+mobile view:https://www.figma.com/file/RG4N6sAzgZusp68vc8h0Ob/FED-Assignment-Mobile-View?type=design&node-id=0%3A1&mode=design&t=DJkcG9yvVbMPTwAF-1
 
 # Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Feature 1 - allow user to navigate around the pages using the menus bar
+Feature 2 - allow user to write the full version of the post detail, by clicking click more in the homepage
+Feature 3 - allows users display their query or feedback in review page, by having them fill out feedback page to submit
+Feature 4 - allow user to login to student/staff portal by having them fill up the login details
 
-Features Left to Implement
-Another feature idea
+In addition, I will use this section to discuss plans for additional features to be implemented in the future:
+
+Feature idea:
+Real-time Chat- to implement a real-time chat feature to facilitate instant communication between users.
+Interactive Maps- for user to drag around and see the places near the school
 
 # Technologies Used
 
