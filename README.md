@@ -31,7 +31,9 @@ In addition, I will use this section to discuss plans for additional features to
 
 Feature idea:
 Real-time Chat- to implement a real-time chat feature to facilitate instant communication between users.
+
 Interactive Maps- for user to drag around and see the places near the school.
+
 Input new interactive calendar - for user to see furture school event and have a heads up.
 
 # Technologies Used
@@ -68,9 +70,13 @@ The project has been tested on multiple browsers (google chrome(default),Firefox
 Content
 The text for homepage,about,enrollment,and publication was copied from the yale school of art website
 source:https://www.art.yale.edu/
+
 https://www.art.yale.edu/about/mission-statement
+
 https://www.art.yale.edu/about
+
 https://www.art.yale.edu/apply
+
 https://www.art.yale.edu/publications
 
 The photos used in this site were obtained from ...
