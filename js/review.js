@@ -1,4 +1,4 @@
-// Function to save student data to local storage
+// Function to save student data to local storage to avoid any confusion from other local storage program
 function saveStudentData(studentList) {
   const namespace = "yourProgramNamespace_";
   localStorage.setItem(namespace + "studentList", JSON.stringify(studentList));

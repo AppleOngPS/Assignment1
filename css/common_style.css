@@ -76,16 +76,63 @@
 .footer h6 {
   cursor: pointer;
 }
-/* alignment of the school logo and school title for all pages */
+/* alignment of the title for all pages */
 .header {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 5px;
+  height: 100px;
+  align-items: center;
+  margin: 0px;
   font-size: 40px;
+  border: 3px hidden;
 }
 /* standadize word size */
 .word {
   font-size: 18px;
+}
+
+/*Scrollbar setting for different browsers*/
+/* For Chrome and Safari */
+::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkslategray; /* Set the color of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(
+    220,
+    228,
+    237,
+    0.863
+  ); /* Set the color of the scrollbar track */
+}
+
+/* For Firefox */
+
+html {
+  scrollbar-color: rgba(220, 228, 237, 0.863);
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: darkslategray;
+}
+
+/* For Internet Explorer and Microsoft Edge */
+body {
+  scrollbar-face-color: #333;
+  scrollbar-track-color: #666;
+}
+
+body {
+  scrollbar-shadow-color: #999;
+  scrollbar-highlight-color: #bbb;
+  scrollbar-3dlight-color: #bbb;
+  scrollbar-darkshadow-color: #666;
 }
 
 @media only screen and (max-width: 600px) {
