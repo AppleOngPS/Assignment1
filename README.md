@@ -111,6 +111,8 @@ Map of school : https://www.google.com/maps/place/Yale+School+of+Art/@41.3085549
 
 Publication page(image and content): https://www.art.yale.edu/publications
 
+reference from :https://chat.openai.com/
+
 Acknowledgements
 I received inspiration for this project from yale school of art
 source:https://www.art.yale.edu/
