@@ -4,7 +4,7 @@ This revamped version of the website represents a significant improvement over t
 
 # Design Process
 
-This website is focusing on anyone who are interested and want to find out more about the school through the website.As a user, I want the website to be easy to navigate to everypage using the menu bar,providing disticnt and clear category like Home,About,Enrollment,Publication,Feedback,Review,and Login.As a student user type, I want to explore the external and internal aspects of the school.Every page of the website there is different view of aspect of the internal and external of the school.As a reader type,readability will be a important factor,having a clear font,and contrasting colors to enhance the overall user experience.
+This website is focusing on anyone who are interested and want to find out more about the school through the website.As a user, I want the website to be easy to navigate to every page using the menu bar,providing distinct and clear category like Home, About,Enrollment, Publication, Feedback ,Review, and Login.As a student user type, I want to explore the external and internal aspects of the school.Every page of the website there is different view of aspect of the internal and external of the school.As a reader type,readability will be a important factor,having a clear font,and contrasting colors to enhance the overall user experience.
 
 I used Figma software to create my wireframe.Below is the attached link for the desktop view and mobile view.
 
@@ -81,7 +81,7 @@ speical bugs:
 
 one task will be when I fill up everything, and press submit in the feedback page. All the details clear off except for the message.when i go to the review page it will appear all the details from whatever that i have submmitted!
 
-# tested
+# Tested
 
 In addition, this section I will show how my project looks and works on different browsers and screen sizes.
 
