@@ -39,33 +39,56 @@ Input new interactive calendar - for user to see furture school event and have a
 HTML
 the project uses html to create a basic structure of the website.
 Testing
+Official website:https://html.spec.whatwg.org/
 
 CSS
 the project use css for styling and layout, ensuring a visually appealing and consistent design across the website.
+official website: https://www.w3.org/Style/CSS/Overview.en.html
 
 Javascript
 the project use JavaScript to adds interactivity and dynamic features to the website, enhancing the user experience.
 example like vaildation,local storeage
 
+official website:https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+github
+the project use github is a code hosting platform for version control and collaboration.It also allow version tracking
+official website:https://github.com/
+
 Figma(WireFrame)
 the project use Figma for prototyping, and user interface (UI) design.
 Example like how does the website in desktop look like in the mobile view.Quick look on how the overview layout look like and able to follow to do the final code using html,css,javascript.
+official website:https://www.figma.com/
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, example:
 
-login form:
-Go to the "login" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+Feedback page:
+Go to Feedback page
+
+Try to submit without filling any details
+Expected result: A alert will pop out to fill up last details that you did not fill up
+
+Try to submit the form without filling up the name
+Expected result: Alert will pop up if you need not fill up this field
+
+Try to submit the form without filling up the email
+Expected result: Alert will pop up if you need not fill up or not fill up correctly this field
+
+Try to submit the form without filling up the subject
+Expected result: Alert will pop up if you need not fill up this field
 
 speical bugs:
 
-- one task will be when I fill up everything, and press submit in the feedback page. All the details clear off except for the message.when i go to the review page it will appear all the details from whatever that i have submmitted!a
+one task will be when I fill up everything, and press submit in the feedback page. All the details clear off except for the message.when i go to the review page it will appear all the details from whatever that i have submmitted!
+
+# tested
 
 In addition, this section I will show how my project looks and works on different browsers and screen sizes.
 
 The project has been tested on multiple browsers (google chrome(default),Firefox,Internet explorer,mircosoft edge) to ensure a consistent user experience.The project is fully compatible with the different browser, displaying as intended.However screens with a larger display area, the layout is not proportionate.
+
+feedback form was tested and display on the review page
+login page was tested and once everything is fill up correctly it will pop a successful alert.
 
 # Credits
 
