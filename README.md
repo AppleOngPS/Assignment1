@@ -17,6 +17,7 @@ mobile view:https://www.figma.com/file/RG4N6sAzgZusp68vc8h0Ob/FED-Assignment-Mob
 In this section, I will go over the different parts of my project, and describe each in a sentence or so.
 
 Existing Features
+
 Feature 1 - allow user to navigate around the pages using the menus bar
 
 Feature 2 - allow user to write the full version of the post detail, by clicking click more in the homepage
