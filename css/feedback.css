@@ -8,8 +8,8 @@
   flex-direction: column;
   width: 80%;
   margin: 0 auto; /* Center the form horizontally */
-  border: 4px hidden;
-  padding: 50px; /* Add some padding for better appearance */
+  border: 4px black hidden;
+  padding: 0px;
   text-align: right;
 }
 

@@ -1,3 +1,11 @@
+// Function to save student data to local storage to avoid any confusion from other local storage program
+function saveStudentData(studentList) {
+  const namespace = "yourProgramNamespace_";
+  localStorage.setItem(namespace + "studentList", JSON.stringify(studentList));
+}
+
+// Function to retrieve and display student data from local storage
+
 function displayStudents() {
   let studentTable = document.getElementById("student-table-body");
   let studentList = [];
@@ -12,6 +20,11 @@ function displayStudents() {
 
     studentTable.innerHTML = studentData;
   }
+}
+// Function to clear the local storage for your program
+function clearLocalStorage() {
+  const namespace = "yourProgramNamespace_";
+  localStorage.removeItem(namespace + "studentList");
 }
 
 displayStudents();
