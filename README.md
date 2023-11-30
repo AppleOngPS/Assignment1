@@ -61,6 +61,10 @@ Try to submit the empty form and verify that an error message about the required
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
 
+speical bugs:
+
+- one task will be when I fill up everything, and press submit in the feedback page. All the details clear off except for the message.when i go to the review page it will appear all the details from whatever that i have submmitted!a
+
 In addition, this section I will show how my project looks and works on different browsers and screen sizes.
 
 The project has been tested on multiple browsers (google chrome(default),Firefox,Internet explorer,mircosoft edge) to ensure a consistent user experience.The project is fully compatible with the different browser, displaying as intended.However screens with a larger display area, the layout is not proportionate.
