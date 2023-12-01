@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <title>Yale School Of Art: HomePage</title>
   </head>
+
   <body>
     <header>
       <section class="container">
@@ -22,7 +23,7 @@
         </div>
       </section>
 
-      <menu class="menu">
+      <nav class="menu">
         <h4><a onclick="home()">Home</a></h4>
         <h4><a onclick="about()">About</a></h4>
         <h4><a onclick="enrollment()">Enrollment</a></h4>
@@ -30,106 +31,103 @@
         <h4><a onclick="feedback()">Feedback</a></h4>
         <h4><a onclick="review()">Review</a></h4>
         <h4><a onclick="login()">Login</a></h4>
-      </menu>
+      </nav>
 
       <img
-        src="picture/homepage cover image.jpg"
-        alt="logo"
-        width="100%"
-        height="500px"
+        src="picture/homepage_cover_image.jpg"
+        alt="cover"
+        style="width: 100%"
+        height="500"
       />
 
-      <content class="content">
-        The Yale School of Art is a graduate school that confers MFAs in Graphic
-        Design, Painting/Printmaking, Photography, and Sculpture; and offers
-        undergraduate-level art courses to Yale College students. Our website
-        exists as an ongoing collaborative experiment in digital publishing and
-        information sharing. It functions as a wiki—all members of the School of
-        Art community have the ability to add new, and edit most existing
-        content.
-      </content>
+      <article class="content">
+        <!-- Content goes here -->
+        <p>
+          The Yale School of Art is a graduate school that confers MFAs in
+          Graphic Design, Painting/Printmaking, Photography, and Sculpture; and
+          offers undergraduate-level art courses to Yale College students. Our
+          website exists as an ongoing collaborative experiment in digital
+          publishing and information sharing. It functions as a wiki—all members
+          of the School of Art community have the ability to add new, and edit
+          most existing content.
+        </p>
+      </article>
 
-      <subtitle class="subtitle">
+      <section class="happening">
         <h3>Happening in school</h3>
-      </subtitle>
-
-      <content class="content">
-        Spring 2023 Visiting Artist lectures have concluded. And Spring 2023
-        exhibitions are open through Monday, May 22 to the Yale community.
-      </content>
-
-      <subtitle class="subtitle">
-        <h3>Community Bulletin Board</h3>
-      </subtitle>
-
-      <board class="board">
-        <contentHeader class="content">
-          FACULTY/ALUMNI: POST YOUR ART APPRENTICESHIP/INTERNSHIP OPPORTUNITIES
-          FOR UNDERGRADUATES
-        </contentHeader>
-
-        <section class="row">
-          <br />
-          <post class="post">
-            FROM OUR FRIENDS AT THE YALE CENTER FOR ENVIRONMENTAL JUSTICE
-            <br /><br />
-            The Yale Center for Environmental Justice is in the process of
-            planning our fourth annual Global Environmental Justice Conference,
-            with this year focusing on the theme of “Environmental Joy.”
-            <br /><br />
-            <a href="readmore.html" target="_self">Read More</a>
-          </post>
-
-          <post class="post1">
-            FACULTY/ALUMNI: POST YOUR ART APPRENTICESHIP/INTERNSHIP
-            OPPORTUNITIES FOR UNDERGRADUATES
-            <br /><br />
-            The Yale Arts Apprenticeship Program is an initiative that connects
-            Yale undergraduates, particularly those on financial aid, with
-            professional arts practitioners of any discipline.
-            <br /><br />
-            <a href="readmore.html" target="_self">Read More</a>
-          </post>
-
-          <post class="post2">
-            MAPPING PUBLIC ART IN NEW HAVEN
-            <br /><br />
-            Hey everyone! I’ve been mapping public art in New Haven as part of
-            my nonprofit project ArtAround, and I’d love to invite you to join
-            me, or just check it out and see what you think.
-            <br /><br />
-            <a href="readmore.html" target="Read More">Read More</a>
-          </post>
-        </section>
-      </board>
-      <br />
-      <br />
-
-      <subtitle class="subtitle">
-        <h3>Student Art Work</h3>
-      </subtitle>
-
-      <br />
-      <section class="rowforimg">
-        <image class="image">
-          <img src="picture/student_art_1.jpg" alt="art" /> <br />
-          <p class="word">
-            By 81-year-old photographer Tod Papageorge showcases previously
-            unpublished photographs taken between 1966 and 1971.
-          </p>
-        </image>
-
-        <image class="image1">
-          <img src="picture/student_art_2.jpg" alt="art1" />
-          <p class="word">Created by Tomashi Jackson</p>
-        </image>
+        <p>
+          Spring 2023 Visiting Artist lectures have concluded. And Spring 2023
+          exhibitions are open through Monday, May 22 to the Yale community.
+        </p>
       </section>
-      <br />
-      <br />
+
+      <section class="bulletin-board">
+        <h3>Community Bulletin Board</h3>
+        <div class="board">
+          <header>
+            <h4>
+              FACULTY/ALUMNI: POST YOUR ART APPRENTICESHIP/INTERNSHIP
+              OPPORTUNITIES FOR UNDERGRADUATES
+            </h4>
+          </header>
+          <div class="row">
+            <!-- Bulletin board posts go here -->
+            <div class="post">
+              FROM OUR FRIENDS AT THE YALE CENTER FOR ENVIRONMENTAL JUSTICE
+              <br /><br />
+              The Yale Center for Environmental Justice is in the process of
+              planning our fourth annual Global Environmental Justice
+              Conference, with this year focusing on the theme of “Environmental
+              Joy.”
+              <br /><br />
+              <a href="readmore.html" target="_self">Read More</a>
+            </div>
+
+            <div class="post">
+              FACULTY/ALUMNI: POST YOUR ART APPRENTICESHIP/INTERNSHIP
+              OPPORTUNITIES FOR UNDERGRADUATES
+              <br /><br />
+              The Yale Arts Apprenticeship Program is an initiative that
+              connects Yale undergraduates, particularly those on financial aid,
+              with professional arts practitioners of any discipline.
+              <br /><br />
+              <a href="readmore.html" target="_self">Read More</a>
+            </div>
+
+            <div class="post">
+              MAPPING PUBLIC ART IN NEW HAVEN
+              <br /><br />
+              Hey everyone! I’ve been mapping public art in New Haven as part of
+              my nonprofit project ArtAround, and I’d love to invite you to join
+              me, or just check it out and see what you think.
+              <br /><br />
+              <a href="readmore.html" target="Read More">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="student-artwork">
+        <h3>Student Art Work</h3>
+        <!-- Student artwork section goes here -->
+        <div class="rowforimg">
+          <figure class="image">
+            <img src="picture/student_art_1.jpg" alt="art" />
+            <figcaption>
+              By 81-year-old photographer Tod Papageorge showcases previously
+              unpublished photographs taken between 1966 and 1971.
+            </figcaption>
+          </figure>
+
+          <figure class="image1">
+            <img src="picture/student_art_2.jpg" alt="art1" />
+            <figcaption>Created by Tomashi Jackson</figcaption>
+          </figure>
+        </div>
+      </section>
     </header>
 
     <script src="js/linkingPages.js"></script>
-
     <footer class="footer">
       <h6>@2023</h6>
       <h6>Instagram</h6>
