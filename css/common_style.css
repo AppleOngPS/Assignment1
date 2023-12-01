@@ -7,7 +7,7 @@
   align-items: center;
   margin: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  border: 4px hidden;
+  border: none; /* Fix: Use 'none' instead of 'hidden' */
 }
 
 /* school name for all pages */
@@ -18,8 +18,8 @@
 
 /* menus for all pages */
 .menu h4 a {
-  color: white; /* Color for the link within h4 */
-  text-decoration: none; /* Remove underline from the link */
+  color: white;
+  text-decoration: none;
   font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
   flex-direction: row;
@@ -44,7 +44,7 @@
   margin: 15px;
   padding: 10px;
   font-size: 22px;
-  text-wrap: wrap;
+  white-space: wrap; /* Fix: Use 'white-space' instead of 'text-wrap' */
   width: 80%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -58,7 +58,9 @@
   background-color: rgb(32, 32, 131);
   color: white;
   justify-content: center;
+  align-items: center;
   width: 500px;
+  height: 80px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -76,84 +78,31 @@
 .footer h6 {
   cursor: pointer;
 }
-/* alignment of the title for all pages */
-.header {
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  height: 100px;
-  align-items: center;
-  margin: 0px;
-  font-size: 40px;
-  border: 3px hidden;
-}
-/* standadize word size */
-.word {
-  font-size: 18px;
-}
 
-/*Scrollbar setting for different browsers*/
+/* Scrollbar setting for different browsers */
 /* For Chrome and Safari */
 ::-webkit-scrollbar {
-  width: 12px; /* Set the width of the scrollbar */
+  width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: darkslategray; /* Set the color of the scrollbar thumb */
+  background-color: darkslategray;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgba(
-    220,
-    228,
-    237,
-    0.863
-  ); /* Set the color of the scrollbar track */
+  background-color: rgba(220, 228, 237, 0.863);
 }
 
 /* For Firefox */
-
 html {
-  scrollbar-color: rgba(220, 228, 237, 0.863);
+  scrollbar-color: darkslategray rgba(220, 228, 237, 0.863);
 }
 
-html {
-  scrollbar-width: thin;
-  scrollbar-color: darkslategray;
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+  background-color: darkslategray;
 }
 
-/* For Internet Explorer and Microsoft Edge */
-body {
-  scrollbar-face-color: #333;
-  scrollbar-track-color: #666;
-}
-
-body {
-  scrollbar-shadow-color: #999;
-  scrollbar-highlight-color: #bbb;
-  scrollbar-3dlight-color: #bbb;
-  scrollbar-darkshadow-color: #666;
-}
-
-@media only screen and (max-width: 600px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-  .menu {
-    display: flex;
-    flex-direction: column;
-  }
-  .intro {
-    display: flex;
-    flex-direction: column;
-  }
-  .subtitle {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer {
-    display: flex;
-    flex-direction: column;
-  }
+::-webkit-scrollbar-track {
+  background-color: rgba(220, 228, 237, 0.863);
 }
